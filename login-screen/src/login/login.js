@@ -4,7 +4,7 @@ import styles from "./style";
 import {Keyboard, Text, View, TextInput, TouchableWithoutFeedback, Alert, KeyboardAvoidingView} from 'react-native';
 import { Button } from 'react-native-elements';
 
-const appId = "1047121222092614"
+const appId = "239397853586377"
 
 export default class LoginScreen extends Component {
 
@@ -15,7 +15,7 @@ export default class LoginScreen extends Component {
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <View style={styles.loginScreenContainer}>
           <View style={styles.loginFormView}>
-          <Text style={styles.logoText}>Instamobile</Text>
+          <Text style={styles.logoText}>Energy Brooklin</Text>
             <TextInput placeholder="Username" placeholderColor="#c4c3cb" style={styles.loginFormTextInput} />
             <TextInput placeholder="Password" placeholderColor="#c4c3cb" style={styles.loginFormTextInput} secureTextEntry={true}/>
             <Button
